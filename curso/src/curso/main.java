@@ -14,17 +14,19 @@ public class main {
 
 			Scanner sc = new Scanner(System.in);
 
+			double x1, x2, x3, y1, y2, y3;
+
 			System.out.println("Escreva os valores do triângulo X:");
 
-			double x1 = sc.nextDouble();
-			double x2 = sc.nextDouble();
-			double x3 = sc.nextDouble();
+			x1 = sc.nextDouble();
+			x2 = sc.nextDouble();
+			x3 = sc.nextDouble();
 
 			System.out.println("Escreva os valores do triângulo Y:");
 
-			double y1 = sc.nextDouble();
-			double y2 = sc.nextDouble();
-			double y3 = sc.nextDouble();
+			y1 = sc.nextDouble();
+			y2 = sc.nextDouble();
+			y3 = sc.nextDouble();
 
 			sc.close();
 
